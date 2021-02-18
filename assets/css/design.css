@@ -1,0 +1,51 @@
+	::selection { background-color: #E13300; color: white; }
+	::-moz-selection { background-color: #E13300; color: white; }
+
+	body {
+		background-color: #fff;
+		color: #4F5155;
+	}
+
+	a {
+		color: #003399;
+		background-color: transparent;
+		font-weight: normal;
+	}
+
+	code {
+		font-family: Consolas, Monaco, Courier New, Courier, monospace;
+		font-size: 12px;
+		background-color: #f9f9f9;
+		border: 1px solid #D0D0D0;
+		color: #002166;
+		display: block;
+		margin: 14px 0 14px 0;
+		padding: 12px 10px 12px 10px;
+	}
+
+	.custom {
+		width: 28rem;
+		margin: 10px auto 150px;
+		padding-top: 0;
+	}
+	.card-body { padding-top: 0; }
+	.custom .card-title { text-align: center;
+    border-bottom: thin solid rgba(0, 0, 0, 0.2);
+    margin: 0 -20px 30px;
+    padding: 10px;
+    background: skyblue;
+    color: white; }
+
+#draggable { width: 150px; height: 120px; border-radius: 5px; border: thin solid skyblue; padding: 15px; box-shadow: 2px 2px 25px #00000033; background: white; z-index: 10; }
+
+  #selectable .ui-selecting { background: #FECA40; }
+  #selectable .ui-selected { background: #F39814; color: white; }
+  #selectable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; border: thin solid red; }
+
+#ui-datepicker-div{
+	background: white;
+    padding: 10px 20px;
+    border: thin solid green;
+    left: 250px;
+}
